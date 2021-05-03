@@ -45,7 +45,7 @@ public class OpenAPI {
      */
     @GET
     @Path("{selected_api}")
-    @Produces(MediaType.APPLICATION_XML)
+    @Produces(MediaType.APPLICATION_JSON)
     public String getXml(@PathParam("selected_api") int s) {
         try {
             String api = "";
@@ -75,9 +75,7 @@ public class OpenAPI {
             }
             bufferedReader.close();
             JSONObject json = new JSONObject(response.toString());
-            StringWriter writer = new StringWriter();
-            JAXB.marshal(json.toString(4), writer);
-            return writer.toString();
+            return json.toString(4);
         }
         catch (Exception e){
             return "Error: " + e;
