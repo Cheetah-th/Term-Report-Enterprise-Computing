@@ -51,12 +51,12 @@ public class OpenAPI {
             String api = "";
             switch(s) {
                 case 1:
-                    api = "https://opend.data.go.th/get-ckan/datastore_search?resource_id=a69d43bd-be69-4989-8adc-bdcf6ca2c5ee";
-                    //คะแนนเฉลี่ยของผลการทดสอบ O-NET ชั้นมัธยมศึกษาปีที่ 6 ปีการศึกษา 2562 จำแนกตามภูมิภาค
+                    api = "https://opend.data.go.th/get-ckan/datastore_search?resource_id=7c8f759f-d7cb-4813-b514-5736c7a85994";
+                    //อัตราการเข้าถึงของบริการอินเทอร์เน็ตความเร็วสูงต่อจำนวนครัวเรือน
                     break;
                 case 2:
-                    api = "https://opend.data.go.th/get-ckan/datastore_search?resource_id=662f2af8-2779-4bbe-af3b-ca716d6a4f54";
-                    //คะแนนเฉลี่ยของผลการทดสอบ O-NET ชั้นมัธยมศึกษาปีที่ 6 ปีการศึกษา 2562 จำแนกตามสาระการเรียนรู้
+                    api = "https://opend.data.go.th/get-ckan/datastore_search?resource_id=d3b73175-472b-4bea-af36-7a257417186f";
+                    //จำนวนผู้ลงทะเบียนใช้บริการอินเทอร์เน็ตความเร็วสูง
                     break;
             }
             URL url = new URL(api);

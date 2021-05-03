@@ -24,12 +24,12 @@ public class Handle {
             int s = parseInt(status);
             switch(s) {
                 case 1:
-                    api = "https://opend.data.go.th/get-ckan/datastore_search?resource_id=a69d43bd-be69-4989-8adc-bdcf6ca2c5ee";
-                    //§–·ππ‡©≈’Ë¬¢Õßº≈°“√∑¥ Õ∫ O-NET ™—Èπ¡—∏¬¡»÷°…“ª’∑’Ë 6 ª’°“√»÷°…“ 2562 ®”·π°µ“¡¿Ÿ¡‘¿“§
+                    api = "https://opend.data.go.th/get-ckan/datastore_search?resource_id=7c8f759f-d7cb-4813-b514-5736c7a85994";
+                    //‡∏≠‡∏±‡∏ï‡∏£‡∏≤‡∏Å‡∏≤‡∏£‡πÄ‡∏Ç‡πâ‡∏≤‡∏ñ‡∏∂‡∏á‡∏Ç‡∏≠‡∏á‡∏ö‡∏£‡∏¥‡∏Å‡∏≤‡∏£‡∏≠‡∏¥‡∏ô‡πÄ‡∏ó‡∏≠‡∏£‡πå‡πÄ‡∏ô‡πá‡∏ï‡∏Ñ‡∏ß‡∏≤‡∏°‡πÄ‡∏£‡πá‡∏ß‡∏™‡∏π‡∏á‡∏ï‡πà‡∏≠‡∏à‡∏≥‡∏ô‡∏ß‡∏ô‡∏Ñ‡∏£‡∏±‡∏ß‡πÄ‡∏£‡∏∑‡∏≠‡∏ô
                     break;
                 case 2:
-                    api = "https://opend.data.go.th/get-ckan/datastore_search?resource_id=662f2af8-2779-4bbe-af3b-ca716d6a4f54";
-                    //§–·ππ‡©≈’Ë¬¢Õßº≈°“√∑¥ Õ∫ O-NET ™—Èπ¡—∏¬¡»÷°…“ª’∑’Ë 6 ª’°“√»÷°…“ 2562 ®”·π°µ“¡ “√–°“√‡√’¬π√ŸÈ
+                    api = "https://opend.data.go.th/get-ckan/datastore_search?resource_id=d3b73175-472b-4bea-af36-7a257417186f";
+                    //‡∏à‡∏≥‡∏ô‡∏ß‡∏ô‡∏ú‡∏π‡πâ‡∏•‡∏á‡∏ó‡∏∞‡πÄ‡∏ö‡∏µ‡∏¢‡∏ô‡πÉ‡∏ä‡πâ‡∏ö‡∏£‡∏¥‡∏Å‡∏≤‡∏£‡∏≠‡∏¥‡∏ô‡πÄ‡∏ó‡∏≠‡∏£‡πå‡πÄ‡∏ô‡πá‡∏ï‡∏Ñ‡∏ß‡∏≤‡∏°‡πÄ‡∏£‡πá‡∏ß‡∏™‡∏π‡∏á
                     break;
             }
             URL url = new URL(api);
